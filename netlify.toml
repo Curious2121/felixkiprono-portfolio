@@ -1,0 +1,4 @@
+# Netlify configuration for the static portfolio website.
+[build]
+  publish = "."
+

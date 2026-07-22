@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Felix Kiprono is a Nairobi-based data journalist, editor, trainer, and multimedia storyteller working across public-interest data, investigations, and civic information."
+    />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5K9MYS7SBX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5K9MYS7SBX');
+    </script>
+    <title>Felix Kiprono | Data Journalist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="mobile-header">
+      <a class="mobile-brand" href="#home">FK</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="outline">Menu</button>
+      <span class="active-section-label">Home</span>
+    </header>
+
+    <aside class="outline" id="outline" aria-label="Page outline">
+      <a class="brand" href="#home" aria-label="Felix Kiprono home">
+        <span>FK</span>
+      </a>
+      <p class="outline-role">Data Journalist</p>
+      <nav>
+        <details open>
+          <summary>Profile</summary>
+          <a class="nav-child" href="#home">Home</a>
+          <a class="nav-child" href="#about">About</a>
+          <a class="nav-child" href="#experience">Experience</a>
+        </details>
+        <details open>
+          <summary>Work</summary>
+          <a class="nav-child" href="#portfolio">Portfolio</a>
+          <a class="nav-child" href="#videos">Videos</a>
+          <a class="nav-child" href="#events">Events and Trainings</a>
+          <a class="nav-child" href="#partnerships">Partnerships</a>
+          <a class="nav-child" href="#news">In the News</a>
+        </details>
+        <details open>
+          <summary>Connect</summary>
+          <a class="nav-child" href="#skills">Skills</a>
+          <a class="nav-child" href="#education">Education</a>
+          <a class="nav-child" href="#contact">Contact</a>
+        </details>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="home" class="hero section" data-label="Home">
+        <div class="hero-copy">
+          <p class="eyebrow" data-field="hero_label">Data Journalist</p>
+          <h1 data-field="hero_title">I turn public data into stories people can use.</h1>
+          <p class="lede" data-field="hero_subtitle"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#portfolio">View my work</a>
+            <a class="button" href="#contact">Contact me</a>
+            <a class="button blog-button" href="http://stories.felixkiprono.com/" target="_blank" rel="noreferrer">
+              <span>Read my blog</span>
+              <img src="assets/sense-logo.svg" alt="The Sense" />
+            </a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/felix-kiprono-bio.png" alt="Felix Kiprono" />
+        </figure>
+      </section>
+
+      <section id="about" class="section" data-label="About">
+        <p class="section-kicker">About</p>
+        <div class="split">
+          <h2 data-field="about_title"></h2>
+          <div class="prose" id="about-copy"></div>
+        </div>
+      </section>
+
+      <section id="experience" class="section" data-label="Experience">
+        <p class="section-kicker">Experience</p>
+        <div class="timeline" id="experience-list"></div>
+      </section>
+
+      <section id="portfolio" class="section" data-label="Portfolio">
+        <div class="section-top">
+          <div>
+            <p class="section-kicker">Portfolio</p>
+            <h2>Featured work, published stories, databases, videos, and trainings.</h2>
+          </div>
+        </div>
+
+        <div class="portfolio-layout">
+          <aside class="portfolio-filters" aria-label="Portfolio filters">
+            <details class="filter-group" open>
+              <summary>Type</summary>
+              <div id="type-filters" class="filter-stack"></div>
+            </details>
+            <details class="filter-group">
+              <summary>Topic</summary>
+              <div id="topic-filters" class="filter-stack"></div>
+            </details>
+            <details class="filter-group">
+              <summary>Date</summary>
+              <div id="year-filters" class="filter-stack"></div>
+            </details>
+          </aside>
+
+          <div class="portfolio-results">
+            <div class="portfolio-count" id="portfolio-count"></div>
+            <div id="featured-work" class="featured-work"></div>
+            <details class="portfolio-group" open>
+              <summary>Full portfolio</summary>
+              <div id="standard-work" class="portfolio-list"></div>
+            </details>
+            <details class="portfolio-group low-priority">
+              <summary>Additional archive</summary>
+              <div id="archive-work" class="portfolio-list small"></div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="videos" class="section" data-label="Videos">
+        <p class="section-kicker">Videos</p>
+        <div class="showreel">
+          <iframe
+            src="https://www.youtube.com/embed/yB8c9eB2N8g"
+            title="Felix Kiprono video producer showreel"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div>
+            <span>Showreel</span>
+            <h2>Video producer showreel</h2>
+            <p>
+              A compact reel of production, scripting, presenting, and visual storytelling work.
+            </p>
+          </div>
+        </div>
+        <div id="video-work" class="video-strip"></div>
+      </section>
+
+      <section id="events" class="section" data-label="Events">
+        <p class="section-kicker">Events and trainings</p>
+        <div id="event-work" class="event-grid"></div>
+      </section>
+
+      <section id="partnerships" class="section compact" data-label="Partnerships">
+        <p class="section-kicker">Partnerships</p>
+        <div id="partner-work" class="partner-grid"></div>
+      </section>
+
+      <section id="news" class="section compact" data-label="In the News">
+        <p class="section-kicker">In the News</p>
+        <div id="news-work" class="grid three"></div>
+      </section>
+
+      <section id="skills" class="section compact" data-label="Skills">
+        <p class="section-kicker">Skills</p>
+        <div class="skills" id="skills-list"></div>
+      </section>
+
+      <section id="education" class="section compact" data-label="Education">
+        <p class="section-kicker">Education</p>
+        <div class="grid two" id="education-list"></div>
+      </section>
+
+      <section id="contact" class="section contact" data-label="Contact">
+        <p class="section-kicker">Contact</p>
+        <h2 data-field="contact_intro"></h2>
+        <a class="email" data-field="email" href="mailto:felixkiprono.ke@gmail.com">felixkiprono.ke@gmail.com</a>
+        <div class="contact-actions">
+          <a class="button primary" href="assets/Felix_Kiprono_Resume.pdf" download>Download resume</a>
+          <a class="button" href="mailto:felixkiprono.ke@gmail.com">Email Felix</a>
+        </div>
+        <div class="socials" id="social-links"></div>
+      </section>
+    </main>
+
+    <script src="site-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

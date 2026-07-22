@@ -1,0 +1,11 @@
+# Keep the deployment repository limited to public website files.
+*
+!.gitignore
+!netlify.toml
+!index.html
+!styles.css
+!script.js
+!site-data.js
+!assets/
+!assets/**
+
