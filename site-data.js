@@ -704,25 +704,6 @@ window.PORTFOLIO_DATA = {
     },
     {
       "type": "video",
-      "platform": "YouTube",
-      "account": "@kipronoexplores1981",
-      "title": "Have a winning monday (motivational piece)",
-      "date": "2022-05-24",
-      "year": "2022",
-      "summary": "Motion graphics piece by Felix Kiprono",
-      "url": "https://www.youtube.com/watch?v=aqoSiYJdnJc",
-      "thumbnail": "https://i.ytimg.com/vi/aqoSiYJdnJc/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4Ac4FgALQBYoCDAgAEAEYZSBdKFMwDw==&rs=AOn4CLB3quOyGD-P7JXlhv8vqgjxHUMMSA",
-      "sourceId": "aqoSiYJdnJc",
-      "role": "Creator / producer",
-      "publisher": "@kipronoexplores1981",
-      "priority": "low priority",
-      "story": "",
-      "topics": [
-        "data"
-      ]
-    },
-    {
-      "type": "video",
       "platform": "Instagram",
       "account": "@kipronoexplores",
       "title": "Njaanuary meme sharing is a subculture within Kenya's meme culture.",

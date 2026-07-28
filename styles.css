@@ -493,6 +493,13 @@ h3 {
   overflow: hidden;
 }
 
+.portfolio-card img.img-broken,
+.news-card img.img-broken,
+.event-card img.img-broken,
+.video-mini img.img-broken {
+  visibility: hidden;
+}
+
 .portfolio-card.featured img {
   aspect-ratio: 16 / 8.5;
 }
@@ -530,10 +537,6 @@ h3 {
 
 .compact-card .portfolio-card-body {
   padding: 0.65rem;
-}
-
-.compact-card .card-meta {
-  font-size: 0.72rem;
 }
 
 .compact-card h3 {

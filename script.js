@@ -189,13 +189,6 @@ function cardTemplate(item, featured = false) {
   const story = item.story
     ? `<details class="story"><summary>Story behind</summary><p>${escapeHtml(item.story)}</p></details>`
     : "";
-  const meta = [
-    item.publisher || item.platform,
-    item.date || item.year,
-    item.platform && item.type === "video" ? item.platform : "",
-  ]
-    .filter(Boolean)
-    .join(" / ");
 
   return `
     <a class="card-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer" aria-label="${escapeHtml(item.title)}"></a>
@@ -204,7 +197,6 @@ function cardTemplate(item, featured = false) {
       ${featured ? '<span class="priority-pill">Featured</span>' : ""}
     </div>
     <div class="portfolio-card-body">
-      <div class="card-meta">${escapeHtml(meta)}</div>
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
       <dl>
@@ -398,3 +390,17 @@ document.addEventListener("click", (event) => {
     details.removeAttribute("open");
   });
 });
+
+// Broken thumbnails (e.g. expired TikTok/Instagram CDN links) fall back to a
+// plain panel color instead of the browser's broken-image icon. Uses the
+// capture phase since "error" events on <img> don't bubble.
+document.addEventListener(
+  "error",
+  (event) => {
+    const img = event.target;
+    if (img.tagName === "IMG" && img.closest(".thumb-wrap, .video-mini, .news-card, .event-card")) {
+      img.classList.add("img-broken");
+    }
+  },
+  true
+);
