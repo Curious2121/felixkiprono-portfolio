@@ -242,10 +242,12 @@ h3 {
 }
 
 .blog-button img {
-  width: 4.4rem;
-  height: auto;
-  padding: 0.05rem 0.2rem;
+  height: 1.5rem;
+  width: auto;
+  max-width: 100%;
+  padding: 0.2rem 0.5rem;
   background: #fff;
+  border-radius: 2px;
 }
 
 .blog-button:hover img {
@@ -1032,5 +1034,14 @@ iframe {
   .priority-pill {
     top: 0.45rem;
     left: 0.45rem;
+  }
+
+  .blog-button {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .blog-button img {
+    height: 1.3rem;
   }
 }
