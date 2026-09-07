@@ -8,4 +8,5 @@
 !site-data.js
 !assets/
 !assets/**
-
+!tools/
+!tools/**
