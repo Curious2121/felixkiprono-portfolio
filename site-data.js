@@ -633,7 +633,7 @@ window.PORTFOLIO_DATA = {
       "title": "3, President Ruto was confident he had the perfect strategy to bring down the US Dollar/Kenya shilling exchange rate which then stood at 136.",
       "date": "9/7/2023",
       "year": "2023",
-      "summary": "In April 2023, President Ruto was confident he had the perfect strategy to bring down the US Dollar/Kenya shilling exchange rate which then stood at 136. But 4 months later, that rate is edging towards 150, with no sign of reprieve. #dollar #forex",
+      "summary": "In April 2023, President Ruto was confident his strategy would strengthen the shilling against the dollar. Four months later, the rate was edging toward 150.",
       "url": "https://www.instagram.com/reel/Cw5MrpkIpMb/",
       "thumbnail": "https://instagram.fnuu1-1.fna.fbcdn.net/v/t51.71878-15/500761751_677345675220581_7297407228875035413_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=MzE4NjYzMzk4NzQ2NjYyOTkxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjQ4MHg4NTQuc2RyLkMzIn0%3D&_nc_ohc=mygC9ZaoeQAQ7kNvwEZDaB_&_nc_oc=Adoerhg9ePpXEO80eaWCWi3WABxsg2Xga9874V3QM9UhyfSB03oUOvPuqMgluwZpmc4&_nc_ad=z-m&_nc_cid=1695&_nc_zt=23&_nc_ht=instagram.fnuu1-1.fna&_nc_gid=M7uIz68Z6uA06YD-FAtGrg&_nc_ss=7a22e&oh=00_Af4dRov1sj2aUM8F4A3AfarudRXsTzMZQa0odllB0Yfq9w&oe=69FBFDBC",
       "sourceId": "Cw5MrpkIpMb",
@@ -690,7 +690,7 @@ window.PORTFOLIO_DATA = {
       "title": "Explaining how Kenyans go broke in January using Banking data (Njaanuary)",
       "date": "2/4/2022",
       "year": "2022",
-      "summary": "I examine the notion that people are broke in January because of they overspend in December. I critically looked at the data from the central bank and it agrees with this notion. On average spending in December increases by at least 12% based on payment cards (debit cards, credit cards, prepayment cards) spending data. There is a huge jump in December and the M-PESA data as well shows a similar spike in transaction numbers in December. Take a look, enjoy and subscribe. Cheers.",
+      "summary": "Examines why Kenyans go broke every January. Central Bank data shows December card spending jumps at least 12%, with a matching spike in M-PESA transactions.",
       "url": "https://www.youtube.com/watch?v=XQscMmNoftY",
       "thumbnail": "https://i.ytimg.com/vi/XQscMmNoftY/maxresdefault.jpg",
       "sourceId": "XQscMmNoftY",
@@ -709,7 +709,7 @@ window.PORTFOLIO_DATA = {
       "title": "Njaanuary meme sharing is a subculture within Kenya's meme culture.",
       "date": "2/5/2022",
       "year": "2022",
-      "summary": "Njaanuary meme sharing is a subculture within Kenya's meme culture. Every January, which is supposedly the brokest month, these memes fly around. The notion is that during December people overspend leading to financial troubles in January. The njaanuary memes comes in handy to make fun of that. Is it really true that we overspend in December? It's a question I explored through data from the Central Bank of Kenya and what I discovered is what I am sharing in this video. Yes, there is a huge increase in the number of our purchases in December. Take a look.",
+      "summary": "Njaanuary memes mock Kenyans' post-December financial struggles. Central Bank of Kenya data confirms a real spending spike each December, fueling the joke every January.",
       "url": "https://www.instagram.com/reel/CZmR1Pdonxp/",
       "thumbnail": "https://instagram.fnuu1-1.fna.fbcdn.net/v/t51.71878-15/642433095_1608069237196004_2411625488644482602_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mjc2Njk3NzQ0NjU5MjAxOTU2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjQ4MHg3NDYuc2RyLkMzIn0%3D&_nc_ohc=PPX-JuQIh0IQ7kNvwHUEECV&_nc_oc=Ado5zNJvhc_c73N5ZWjMxBlpX1RUt5uyNaRPV8eKi-lmZ0aSF3_jV8BQocAkTsJT16A&_nc_ad=z-m&_nc_cid=1695&_nc_zt=23&_nc_ht=instagram.fnuu1-1.fna&_nc_gid=M7uIz68Z6uA06YD-FAtGrg&_nc_ss=7a22e&oh=00_Af5PHqAntPHEgYq8IUplXuNpeQmsZmuuOSqjeW3Frpf8eA&oe=69FBD45F",
       "sourceId": "CZmR1Pdonxp",
@@ -718,8 +718,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "economics",
-        "media"
+        "economics"
       ]
     },
     {
@@ -729,7 +728,7 @@ window.PORTFOLIO_DATA = {
       "title": "Njaanuary meme sharing is a subculture within Kenya's meme culture. I...",
       "date": "2/5/2022",
       "year": "2022",
-      "summary": "Njaanuary meme sharing is a subculture within Kenya's meme culture. It arises from the notion that people overspend in December leading to financial woes in January. Do we really overspend in December? I explore this question here. Take a look. #money #moneytok #njaanuary #dataviz #christmas",
+      "summary": "Njaanuary memes are a Kenyan tradition rooted in the idea that December overspending causes January financial woes. Does the data actually back that up?",
       "url": "https://www.tiktok.com/@felixkiprono.ke/video/7061229896160283906",
       "thumbnail": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/efbd2c1982d242959f8bc54f9b5b24a1_1644070703~tplv-tiktokx-origin.image?dr=14575&x-expires=1777903200&x-signature=EDEBDOGJyoPrnJmnNHq3PSflo5E%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my2",
       "sourceId": "7.06123E+18",
@@ -865,7 +864,7 @@ window.PORTFOLIO_DATA = {
       "title": "Chris Kirubi's life in 5 minutes, in his own words.",
       "date": "6/19/2021",
       "year": "2021",
-      "summary": "Chris Kirubi was a renowned billionaire businessman in Kenya and Africa. In 2011 he was named Kenya's second richest man by Forbes with a net worth of 300 Million Dollars. Losing his parents at a young age, he was forced to take care of his siblings. He defied all odds and became Kenya's leading self-made entrepreneur. He died at the age of 70 after losing battle with cancer. #RIPChrisKirubi",
+      "summary": "Chris Kirubi, a self-made billionaire named Kenya's second-richest man by Forbes in 2011, raised his siblings after losing his parents young. He died at 70.",
       "url": "https://www.youtube.com/watch?v=PRyZiDaG6OI",
       "thumbnail": "https://i.ytimg.com/vi/PRyZiDaG6OI/maxresdefault.jpg",
       "sourceId": "PRyZiDaG6OI",
@@ -884,7 +883,7 @@ window.PORTFOLIO_DATA = {
       "title": "Dr. Kirubi's childhood was stormy, losing his parents while very young, he had to take care of his siblings.",
       "date": "6/19/2021",
       "year": "2021",
-      "summary": "Dr. Kirubi's childhood was stormy, losing his parents while very young, he had to take care of his siblings. His determination saw him rise to become one of Africa's leading entrepreneur and among the top richest persons. In 2011 he was named Kenya's second richest person with a net worth of $ 300,000 (30 Billion KES). @koinangejeff @mwalimchurchill @capitalfmkenya #kirubi #chriskirubi",
+      "summary": "Chris Kirubi lost his parents young and raised his siblings, going on to become one of Africa's most successful entrepreneurs and top billionaires.",
       "url": "https://www.instagram.com/reel/CQSnOz7AHIR/",
       "thumbnail": "https://instagram.fnuu1-1.fna.fbcdn.net/v/t51.71878-15/639876712_1451412046512211_3442971852664777837_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MjU5OTMxMjQ3NjU4MzUyMjgzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjQ4MHg3NDYuc2RyLkMzIn0%3D&_nc_ohc=mtKko_y9AMoQ7kNvwEeoYac&_nc_oc=Adpx14E3aBJmumwX-aIOM2FoEI7z1tEztQSqKRBOt7IvPSszkKrf3VGYPpVHb3ltW6w&_nc_ad=z-m&_nc_cid=1695&_nc_zt=23&_nc_ht=instagram.fnuu1-1.fna&_nc_gid=M7uIz68Z6uA06YD-FAtGrg&_nc_ss=7a22e&oh=00_Af6dHx-Linahgg98Pomz1qogvJ5jy3Dv9RTiRwNQsFfKWg&oe=69FBFEB2",
       "sourceId": "CQSnOz7AHIR",
@@ -903,7 +902,7 @@ window.PORTFOLIO_DATA = {
       "title": "Kenya's Exports to African Countries in 60 seconds | #Shorts",
       "date": "3/9/2021",
       "year": "2021",
-      "summary": "This is a data story of the value of Kenya's exports to African Countries. I am Felix Kiprono and I am on a quest to explore the world around us and tell stories that help explain stuff in simple, clear and compelling ways. please subscribe to my channel. Lot's of content coming your way.",
+      "summary": "A 60-second data story breaking down the value of Kenya's exports to other African countries.",
       "url": "https://www.youtube.com/watch?v=q-9qG6Rl0bQ",
       "thumbnail": "https://i.ytimg.com/vi/q-9qG6Rl0bQ/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYEyBNKH8wDw==&rs=AOn4CLBCUl1KyrdnBRjlFMzcJqbf5SeHwA",
       "sourceId": "q-9qG6Rl0bQ",
@@ -922,7 +921,7 @@ window.PORTFOLIO_DATA = {
       "title": "Kenya's rising lakes as captured from space",
       "date": "6/22/2021",
       "year": "2021",
-      "summary": "Kenya's rift valley lakes (Lake Turkana, Lake Baringo, Lake Bogoria, Lake Nakuru, Lake Elementaita, Lake Naivasha) have been rising in the last few years. Watch the changes as captured by satellites since the year 1984. My name is Felix Kiprono, am driven by curiosity to explore the world around us and and develop stories that explain stuff in a clear, fun and compelling ways. Let's explore together.",
+      "summary": "Kenya's rift valley lakes have been rising for years. Satellite imagery from 1984 onward shows the changes across Turkana, Baringo, Bogoria, Nakuru, Elementaita and Naivasha.",
       "url": "https://www.youtube.com/watch?v=nCBWyXt9DBA",
       "thumbnail": "https://i.ytimg.com/vi/nCBWyXt9DBA/maxresdefault.jpg",
       "sourceId": "nCBWyXt9DBA",
@@ -1094,7 +1093,7 @@ window.PORTFOLIO_DATA = {
       "title": "Mt. Nyiragongo keeps erupting making Goma city one of the most dangerous. I explain why. /#Shorts",
       "date": "7/11/2021",
       "year": "2021",
-      "summary": "Mt. Nyiragongo is one of the most dangerous volcanoes. When it erupted in May 2021, 32 people died and 4000 homes were destroyed. Much of this destruction was avoidable if the residents had heeded the warning not to construct along a known lava path. Here is the link to the video I did to explain this phenomena. https://www.youtube.com/watch?v=Oqx5snhE1b0 My name is Felix Kiprono, am driven by curiosity to explore the world around us and and tell stories that explain things in clear, fun and compelling ways. Let's explore!",
+      "summary": "Mt. Nyiragongo, one of the world's most dangerous volcanoes, erupted in May 2021, killing 32 people and destroying 4,000 homes built along a known lava path.",
       "url": "https://www.youtube.com/watch?v=zK7FTeYXm4c",
       "thumbnail": "https://i.ytimg.com/vi/zK7FTeYXm4c/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AYwCgALgA4oCDAgAEAEYZSBSKE4wDw==&rs=AOn4CLC_yu4zdNCYGdacihLcKofU-Bu2GA",
       "sourceId": "zK7FTeYXm4c",
@@ -1103,8 +1102,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "environment",
-        "media"
+        "environment"
       ]
     },
     {
@@ -1171,7 +1169,7 @@ window.PORTFOLIO_DATA = {
       "title": "Six Ways Covid 19 Has Changed The World Permanently",
       "date": "2/18/2021",
       "year": "2021",
-      "summary": "This is a look into 6 ways Covid-19 is changing the world forever. Felix Kiprono is driven by curiosity to explore interesting topics and make documentary films that help explain them in simple and compelling ways.",
+      "summary": "A look at six lasting ways Covid-19 changed the world, explained simply through data and storytelling.",
       "url": "https://www.youtube.com/watch?v=tVgVLijL0OY",
       "thumbnail": "https://i.ytimg.com/vi/tVgVLijL0OY/maxresdefault.jpg",
       "sourceId": "tVgVLijL0OY",
@@ -1180,7 +1178,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "data"
+        "media"
       ]
     },
     {
@@ -1228,7 +1226,7 @@ window.PORTFOLIO_DATA = {
       "title": "The Space Center in Kenya that no one is talking about (it's actually active. 2021 launch) | #Shorts",
       "date": "6/1/2021",
       "year": "2021",
-      "summary": "The Luigi Broglio space center in the coast of Kenya was established by Italy in the 1960s in the heat of the space race. The location was particularly chosen because of it's proximity to the equator making launches easy and efficient. The center sent hasn't done any launch since 1988 but is active in tracking satellites and supporting launches around the world such as spacex. My name is Felix Kiprono, I am driven by curiosity to make videos that help explain stuff in easy, fun and clear ways. Please follow and subscribe. Youtube - https://www.youtube.com/channel/UCQMwvQ7-qTHb0a_fQNNll5A instagram - https://www.instagram.com/kipronoexplores/ Tiktok - https://www.tiktok.com/@kipronoexplores Twitter - https://twitter.com/kipronoexplores Facebook - https://web.facebook.com/KipronoExplores",
+      "summary": "Italy's Luigi Broglio Space Center on Kenya's coast was built in the 1960s for its equatorial location. No launches since 1988, but it still tracks satellites today.",
       "url": "https://www.youtube.com/watch?v=UKqm6ULMy7E",
       "thumbnail": "https://i.ytimg.com/vi/UKqm6ULMy7E/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYRSBPKGUwDw==&rs=AOn4CLAIwfsOrdI0fSmKpidQibYKM2AGEA",
       "sourceId": "UKqm6ULMy7E",
@@ -1237,7 +1235,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "media"
+        "data"
       ]
     },
     {
@@ -1285,7 +1283,7 @@ window.PORTFOLIO_DATA = {
       "title": "The weird history behind the 160 years old budget briefcase ritual",
       "date": "6/10/2021",
       "year": "2021",
-      "summary": "The history of budget briefcase goes 161 years back. A tradition that started in Britain, became a practice observed in countries world over. As the national budget is read in Kenya and other former british colonies like Ghana, Zimbabwe, Uganda, Tanzania and Malaysia the briefcase is lifted up for the cameras by the Finance ministers. India used to do this, but recently it abandoned it and went digital. I am Felix Kiprono, I am driven by curiosity to explore interesting stories and make videos that help understand them. #budgetke2021 #Britain",
+      "summary": "The budget briefcase ritual dates back 161 years to Britain and spread across its former colonies, including Kenya. India recently abandoned the tradition and went digital.",
       "url": "https://www.youtube.com/watch?v=y3vFEnPudgI",
       "thumbnail": "https://i.ytimg.com/vi/y3vFEnPudgI/sddefault.jpg",
       "sourceId": "y3vFEnPudgI",
@@ -1294,8 +1292,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "economics",
-        "media"
+        "data"
       ]
     },
     {
@@ -1419,7 +1416,7 @@ window.PORTFOLIO_DATA = {
       "title": "valley lakes (Lake Turkana, Lake Baringo, Lake Bogoria, Lake Nakuru, Lake Elementaita, Lake Naivasha) have been rising in the last few years.",
       "date": "6/23/2021",
       "year": "2021",
-      "summary": "Kenya's rift valley lakes (Lake Turkana, Lake Baringo, Lake Bogoria, Lake Nakuru, Lake Elementaita, Lake Naivasha) have been rising in the last few years. Watch the changes as captured by satellites since the year 1984.",
+      "summary": "Kenya's rift valley lakes have been rising for years. Satellite imagery since 1984 shows the change across Turkana, Baringo, Bogoria, Nakuru, Elementaita and Naivasha.",
       "url": "https://www.instagram.com/reel/CQc_ONxJqUB/",
       "thumbnail": "https://instagram.fnuu1-1.fna.fbcdn.net/v/t51.71878-15/630126634_1595681564876956_5433710905312808778_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MjYwMjIzMjczODQ5OTQzNzgyNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjQ4MHg3NDYuc2RyLkMzIn0%3D&_nc_ohc=37abAbhuXrwQ7kNvwHtCkpu&_nc_oc=AdoJJ5qepwdSnx4Ftgn5oJHWILOk5OcJ_0m--oztAR1XB4mY850nID0qb-5W2rkgI2A&_nc_ad=z-m&_nc_cid=1695&_nc_zt=23&_nc_ht=instagram.fnuu1-1.fna&_nc_gid=M7uIz68Z6uA06YD-FAtGrg&_nc_ss=7a22e&oh=00_Af68ZHDHt-zzP3qvV84yfSc68Co9M8R2k6AuulTaC2SJLQ&oe=69FBCDA0",
       "sourceId": "CQc_ONxJqUB",
@@ -1457,7 +1454,7 @@ window.PORTFOLIO_DATA = {
       "title": "Why it's almost impossible to close world's largest refugee camp in Kenya.",
       "date": "5/25/2021",
       "year": "2021",
-      "summary": "Dadaab camp for a long time was the world's largest refugee camp. For many years, the government of Kenya has unsuccesfuly been pushing for its closure. In this video I explain why it's a nightmare to achieve that.",
+      "summary": "Dadaab has long been the world's largest refugee camp. Kenya's government has pushed for years to close it, without success. Here's why it's proven nearly impossible.",
       "url": "https://www.youtube.com/watch?v=CJCva5UrPvY",
       "thumbnail": "https://i.ytimg.com/vi/CJCva5UrPvY/maxresdefault.jpg",
       "sourceId": "CJCva5UrPvY",
@@ -1466,8 +1463,7 @@ window.PORTFOLIO_DATA = {
       "priority": "low priority",
       "story": "",
       "topics": [
-        "governance",
-        "media"
+        "governance"
       ]
     },
     {

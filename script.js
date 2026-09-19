@@ -184,6 +184,30 @@ function renderFilterGroup(targetId, key, values) {
     .join("");
 }
 
+function publisherDisplay(item) {
+  const rawAccount = String(item.account || "").trim();
+  const platform = String(item.platform || "").trim();
+  const publisher = String(item.publisher || "").trim();
+
+  if (rawAccount.startsWith("@") && platform) {
+    return `${rawAccount.slice(1)}/${platform.toLowerCase()}`;
+  }
+  if (publisher && platform && publisher.toLowerCase() !== platform.toLowerCase()) {
+    return `${publisher} / ${platform}`;
+  }
+  return publisher || platform || "Independent";
+}
+
+function metaFieldsTemplate(item, defaultRole = "Contributor") {
+  return `
+    <dl class="meta-fields">
+      <div><dt>Role</dt><dd>${escapeHtml(item.role || defaultRole)}</dd></div>
+      <div><dt>Publisher</dt><dd>${escapeHtml(publisherDisplay(item))}</dd></div>
+      <div><dt>Date</dt><dd>${escapeHtml(item.date || item.year || "")}</dd></div>
+    </dl>
+  `;
+}
+
 function cardTemplate(item, featured = false) {
   const topics = (item.topics || []).slice(0, 3).map((topic) => `<span>${titleCase(topic)}</span>`).join("");
   const story = item.story
@@ -199,11 +223,7 @@ function cardTemplate(item, featured = false) {
     <div class="portfolio-card-body">
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.summary)}</p>
-      <dl>
-        <div><dt>Publisher</dt><dd>${escapeHtml(item.publisher || item.platform || "Independent")}</dd></div>
-        <div><dt>Role</dt><dd>${escapeHtml(item.role || "Contributor")}</dd></div>
-        <div><dt>Date</dt><dd>${escapeHtml(item.date || item.year)}</dd></div>
-      </dl>
+      ${metaFieldsTemplate(item)}
       <div class="topic-tags">${topics}</div>
       ${story}
       <a class="read-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">View story</a>
@@ -239,8 +259,11 @@ function renderVideos() {
       (item) => `
         <a class="video-mini" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
           <img src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy">
-          <span>${escapeHtml(item.platform)} / ${escapeHtml(item.date || item.year)}</span>
-          <h3>${escapeHtml(item.title)}</h3>
+          <div class="video-mini-body">
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.summary)}</p>
+            ${metaFieldsTemplate(item)}
+          </div>
         </a>
       `
     )
@@ -254,9 +277,11 @@ function renderNews() {
       (item) => `
         <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
           <img src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy">
-          <span>${escapeHtml(item.publisher || item.platform)}</span>
-          <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.summary)}</p>
+          <div class="news-card-body">
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${escapeHtml(item.summary)}</p>
+            ${metaFieldsTemplate(item)}
+          </div>
         </a>
       `
     )
@@ -270,11 +295,10 @@ function renderEvents() {
       (item) => `
         <a class="event-card" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">
           <img src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy">
-          <div>
-            <span>${escapeHtml(item.publisher || item.platform)} / ${escapeHtml(item.date || item.year)}</span>
+          <div class="event-card-body">
             <h3>${escapeHtml(item.title)}</h3>
             <p>${escapeHtml(item.summary)}</p>
-            <strong>Role: ${escapeHtml(item.role || "Trainer / speaker")}</strong>
+            ${metaFieldsTemplate(item, "Trainer / speaker")}
           </div>
         </a>
       `
