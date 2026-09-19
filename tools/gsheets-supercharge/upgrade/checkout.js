@@ -37,7 +37,7 @@
   async function start() {
     var token = new URLSearchParams(window.location.search).get("token") || "";
     if (token.length < 32 || token.length > 200) {
-      fail("Open the Upgrade link from inside GSheets Supercharge to start a secure checkout.");
+      fail("Open the Upgrade link from inside Gsheets SuperCharge to start a secure checkout.");
       return;
     }
 
@@ -101,7 +101,7 @@
       onApprove: function (data) {
         var reference = data && data.subscriptionID ? " Reference: " + data.subscriptionID + "." : "";
         container.replaceChildren();
-        setStatus("Subscription approved. Return to GSheets Supercharge and refresh your access status." + reference, "success");
+        setStatus("Subscription approved. Return to Gsheets SuperCharge and refresh your access status." + reference, "success");
       },
       onCancel: function () {
         setStatus("Checkout was cancelled. You have not completed the subscription.");
